@@ -3,8 +3,10 @@
 a standalone converter for editing Twiddler [v5](http://twiddler.tekgear.com/doc/doku.php?id=twiddler_config_format) configuration files  
   
   
+*a [Cool Hand](https://github.com/CoohLand/CoolHand) companion*  
+  
 ![](doc/sample_decode.png)
-
+  
 ```Shell
 Usage:
      Extract from a Twiddler config file
