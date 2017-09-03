@@ -1,7 +1,8 @@
 # Dido
 
-a standalone converter for editing Twiddler [v5](http://twiddler.tekgear.com/doc/doku.php?id=twiddler_config_format) configuration files
-
+a standalone converter for editing Twiddler [v5](http://twiddler.tekgear.com/doc/doku.php?id=twiddler_config_format) configuration files  
+  
+  
 ![](doc/sample_decode.png)
 
 ```Shell
