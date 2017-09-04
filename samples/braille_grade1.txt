@@ -1,0 +1,99 @@
+# extracted from: braille_grade1.cfg
+#   on: Monday, September 4, 2017 at 00:34:04 Eastern Daylight Time
+# using dido v1.0.0 by stauf        https://github.com/CoohLand/Dido
+#
+# (please edit carefully)
+#
+sticky_num=false         # Enable Stick Num Key, false=Off, true=On
+sticky_shift=false       # Enable Stick Shift Key, false=Off, true=On
+click_mode=true          # Joystick Mouse Click, false=Right-Click, true=Left-Click
+key_repeat=true          # Enable Key Repeat, false=Off, true=On
+direct_key=false         # Enable Direct Key Mode, false=Off, true=On
+bluetooth_off=false      # Disable Bluetooth Radio, false=Enabled, true=Disabled
+# --- end of options
+sleep=1500               # Sleep Timeout (seconds)
+mouse_speed=10           # Mouse Acceleration Factor
+repeat_delay=100         # Key Repeat Delay (default 100)
+# --- end of settings
+mouse_mid=true           # Mouse Middle-Click
+mouse_right=true         # Mouse Right-Click
+mouse_left=true          # Mouse Left-Click
+# --- end of header
+#                 alt  control
+#                    ||
+#               num |||| shift
+#                   ▼▼▼▼
+# Chord Format:     NACS XXXX:HHH+LCLSLALGRCRSRARG:# comment
+#                  [  chord  ] ▲ [   modifier     ]
+#                              |              LC = Left Ctrl
+#                        keycode in dec       RG = Right GUI
+#
+     R000:006                 :# Keyboard c and C
+N    R000:032                 :# Keyboard 3 and #
+     L000:004                 :# Keyboard a and A
+N    L000:030                 :# Keyboard 1 and !
+     RR00:010                 :# Keyboard g and G
+N    RR00:036                 :# Keyboard 7 and &
+     MR00:013                 :# Keyboard j and J
+N    MR00:039                 :# Keyboard 0 and )
+     LR00:011                 :# Keyboard h and H
+N    LR00:037                 :# Keyboard 8 and *
+     RM00:007                 :# Keyboard d and D
+N    RM00:033                 :# Keyboard 4 and $
+     LM00:008                 :# Keyboard e and E
+N    LM00:034                 :# Keyboard 5 and %
+     0L00:054                 :# Keyboard , and <
+     RL00:009                 :# Keyboard f and F
+N    RL00:035                 :# Keyboard 6 and ^
+     ML00:012                 :# Keyboard i and I
+N    ML00:038                 :# Keyboard 9 and (
+     LL00:005                 :# Keyboard b and B
+N    LL00:031                 :# Keyboard 2 and @
+     00R0:045                 :# Keyboard - and _
+     R0R0:027                 :# Keyboard x and X
+     M0R0:String[0]:
+     L0R0:024                 :# Keyboard u and U
+     RRR0:String[1]:
+     RMR0:028                 :# Keyboard y and Y
+     MMR0:032+RS              :# Keyboard 3 and #
+     LMR0:029                 :# Keyboard z and Z
+     0LR0:056+RS              :# Keyboard / and ?
+     RLR0:String[2]:
+     MLR0:String[3]:
+     LLR0:025                 :# Keyboard v and V
+     0RM0:055                 :# Keyboard . and >
+     MRM0:026                 :# Keyboard w and W
+     RLM0:String[4]:
+     00L0:052                 :# Keyboard ' and "
+     R0L0:016                 :# Keyboard m and M
+     L0L0:014                 :# Keyboard k and K
+     0RL0:030+RS              :# Keyboard 1 and !
+     RRL0:020                 :# Keyboard q and Q
+     MRL0:023                 :# Keyboard t and T
+     LRL0:021                 :# Keyboard r and R
+     RML0:017                 :# Keyboard n and N
+     LML0:018                 :# Keyboard o and O
+     RLL0:019                 :# Keyboard p and P
+     MLL0:022                 :# Keyboard s and S
+     LLL0:015                 :# Keyboard l and L
+# --- end of chords
+# String[0]="ing"
+012                 # Keyboard i and I
+017                 # Keyboard n and N
+010                 # Keyboard g and G
+# String[1]="for"
+009                 # Keyboard f and F
+018                 # Keyboard o and O
+021                 # Keyboard r and R
+# String[2]="and"
+004                 # Keyboard a and A
+017                 # Keyboard n and N
+007                 # Keyboard d and D
+# String[3]="the"
+023                 # Keyboard t and T
+011                 # Keyboard h and H
+008                 # Keyboard e and E
+# String[4]="ed"
+008                 # Keyboard e and E
+007                 # Keyboard d and D
+# --- end of config

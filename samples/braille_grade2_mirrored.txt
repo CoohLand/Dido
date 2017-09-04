@@ -1,0 +1,348 @@
+# extracted from: braille_grade2_mirrored.cfg
+#   on: Monday, September 4, 2017 at 00:34:31 Eastern Daylight Time
+# using dido v1.0.0 by stauf        https://github.com/CoohLand/Dido
+#
+# (please edit carefully)
+#
+sticky_num=false         # Enable Stick Num Key, false=Off, true=On
+sticky_shift=false       # Enable Stick Shift Key, false=Off, true=On
+click_mode=true          # Joystick Mouse Click, false=Right-Click, true=Left-Click
+key_repeat=true          # Enable Key Repeat, false=Off, true=On
+direct_key=false         # Enable Direct Key Mode, false=Off, true=On
+bluetooth_off=false      # Disable Bluetooth Radio, false=Enabled, true=Disabled
+# --- end of options
+sleep=1500               # Sleep Timeout (seconds)
+mouse_speed=118          # Mouse Acceleration Factor
+repeat_delay=100         # Key Repeat Delay (default 100)
+# --- end of settings
+mouse_mid=true           # Mouse Middle-Click
+mouse_right=true         # Mouse Right-Click
+mouse_left=true          # Mouse Left-Click
+# --- end of header
+#                 alt  control
+#                    ||
+#               num |||| shift
+#                   ▼▼▼▼
+# Chord Format:     NACS XXXX:HHH+LCLSLALGRCRSRARG:# comment
+#                  [  chord  ] ▲ [   modifier     ]
+#                              |              LC = Left Ctrl
+#                        keycode in dec       RG = Right GUI
+#
+     R000:004                 :# Keyboard a and A
+N    R000:030                 :# Keyboard 1 and !
+     L000:006                 :# Keyboard c and C
+N    L000:032                 :# Keyboard 3 and #
+     0R00:054                 :# Keyboard , and <
+     RR00:005                 :# Keyboard b and B
+N    RR00:031                 :# Keyboard 2 and @
+     MR00:012                 :# Keyboard i and I
+N    MR00:038                 :# Keyboard 9 and (
+     LR00:009                 :# Keyboard f and F
+N    LR00:035                 :# Keyboard 6 and ^
+     RM00:008                 :# Keyboard e and E
+N    RM00:034                 :# Keyboard 5 and %
+     LM00:007                 :# Keyboard d and D
+N    LM00:033                 :# Keyboard 4 and $
+     0L00:051+RS              :# Keyboard ; and :
+     RL00:011                 :# Keyboard h and H
+N    RL00:037                 :# Keyboard 8 and *
+     ML00:013                 :# Keyboard j and J
+N    ML00:039                 :# Keyboard 0 and )
+     LL00:010                 :# Keyboard g and G
+N    LL00:036                 :# Keyboard 7 and &
+  C  L000:String[0]:
+  C  RR00:String[1]:
+  C  LR00:String[2]:
+  C  RM00:String[3]:
+  C  LM00:String[4]:
+  C  0L00:String[5]:
+  C  RL00:String[6]:
+  C  ML00:String[7]:
+  C  LL00:String[8]:
+     00R0:052                 :# Keyboard ' and "
+     R0R0:014                 :# Keyboard k and K
+     M0R0:String[9]:
+     L0R0:016                 :# Keyboard m and M
+     0RR0:051                 :# Keyboard ; and :
+     RRR0:015                 :# Keyboard l and L
+     MRR0:022                 :# Keyboard s and S
+     LRR0:019                 :# Keyboard p and P
+     0MR0:String[10]:
+     RMR0:018                 :# Keyboard o and O
+     MMR0:String[11]:
+     LMR0:017                 :# Keyboard n and N
+     0LR0:030+RS              :# Keyboard 1 and !
+     RLR0:021                 :# Keyboard r and R
+     MLR0:023                 :# Keyboard t and T
+     LLR0:020                 :# Keyboard q and Q
+  C  R0R0:String[12]:
+  C  L0R0:String[13]:
+  C  0RR0:String[14]:
+  C  RRR0:String[15]:
+  C  MRR0:String[16]:
+  C  LRR0:String[17]:
+  C  LMR0:String[18]:
+  C  RLR0:String[19]:
+  C  LLR0:String[20]:
+     R0M0:String[21]:
+     L0M0:String[22]:
+     0RM0:String[23]:
+     RRM0:String[24]:
+     MRM0:String[25]:
+     LRM0:String[26]:
+     RMM0:String[27]:
+     LMM0:String[28]:
+     0LM0:055                 :# Keyboard . and >
+     RLM0:String[29]:
+     MLM0:026                 :# Keyboard w and W
+  C  R0M0:String[30]:
+  C  L0M0:String[31]:
+  C  RMM0:String[32]:
+  C  LMM0:String[33]:
+  C  0LM0:String[34]:
+  C  RLM0:String[35]:
+  C  MLM0:String[36]:
+     00L0:045                 :# Keyboard - and _
+     R0L0:024                 :# Keyboard u and U
+     M0L0:String[37]:
+     L0L0:027                 :# Keyboard x and X
+     0RL0:056+RS              :# Keyboard / and ?
+     RRL0:025                 :# Keyboard v and V
+     MRL0:String[38]:
+     LRL0:String[39]:
+     0ML0:052+RS              :# Keyboard ' and "
+     RML0:029                 :# Keyboard z and Z
+     MML0:032+RS              :# Keyboard 3 and #
+     LML0:028                 :# Keyboard y and Y
+     0LL0:049+RS              :# Keyboard \ and |
+     LLL0:String[40]:
+  C  R0L0:String[41]:
+  C  L0L0:String[42]:
+  C  RRL0:String[43]:
+  C  RML0:String[44]:
+  C  LML0:String[45]:
+  C  0LL0:String[46]:
+   S 0R00:054                 :# Keyboard , and <
+   S 0L00:051+RS              :# Keyboard ; and :
+   S 00R0:052                 :# Keyboard ' and "
+   S 0RR0:051                 :# Keyboard ; and :
+   S 0MR0:037+RS              :# Keyboard 8 and *
+   S 0LR0:030+RS              :# Keyboard 1 and !
+   S 0LM0:055                 :# Keyboard . and >
+   S 00L0:045                 :# Keyboard - and _
+   S 0RL0:052+RS              :# Keyboard ' and "
+   S MML0:032+RS              :# Keyboard 3 and #
+   S 0LL0:049+RS              :# Keyboard \ and |
+  CS 0LL0:String[47]:
+     000R:044                 :# Keyboard Spacebar
+     000M:042                 :# Keyboard DELETE (Backspace)
+     000L:040                 :# Keyboard Return (ENTER)
+     0MLL:String[48]:
+# --- end of chords
+# String[0]="can"
+006                 # Keyboard c and C
+004                 # Keyboard a and A
+017                 # Keyboard n and N
+# String[1]="but"
+005                 # Keyboard b and B
+024                 # Keyboard u and U
+023                 # Keyboard t and T
+# String[2]="from"
+009                 # Keyboard f and F
+021                 # Keyboard r and R
+018                 # Keyboard o and O
+016                 # Keyboard m and M
+# String[3]="every"
+008                 # Keyboard e and E
+025                 # Keyboard v and V
+008                 # Keyboard e and E
+021                 # Keyboard r and R
+028                 # Keyboard y and Y
+# String[4]="do"
+007                 # Keyboard d and D
+018                 # Keyboard o and O
+# String[5]="cc"
+006                 # Keyboard c and C
+006                 # Keyboard c and C
+# String[6]="have"
+011                 # Keyboard h and H
+004                 # Keyboard a and A
+025                 # Keyboard v and V
+008                 # Keyboard e and E
+# String[7]="just"
+013                 # Keyboard j and J
+024                 # Keyboard u and U
+022                 # Keyboard s and S
+023                 # Keyboard t and T
+# String[8]="go"
+010                 # Keyboard g and G
+018                 # Keyboard o and O
+# String[9]="st"
+022                 # Keyboard s and S
+023                 # Keyboard t and T
+# String[10]="in"
+012                 # Keyboard i and I
+017                 # Keyboard n and N
+# String[11]="er"
+008                 # Keyboard e and E
+021                 # Keyboard r and R
+# String[12]="knowledge"
+014                 # Keyboard k and K
+017                 # Keyboard n and N
+018                 # Keyboard o and O
+026                 # Keyboard w and W
+015                 # Keyboard l and L
+008                 # Keyboard e and E
+007                 # Keyboard d and D
+010                 # Keyboard g and G
+008                 # Keyboard e and E
+# String[13]="more"
+016                 # Keyboard m and M
+018                 # Keyboard o and O
+021                 # Keyboard r and R
+008                 # Keyboard e and E
+# String[14]="bb"
+005                 # Keyboard b and B
+005                 # Keyboard b and B
+# String[15]="like"
+015                 # Keyboard l and L
+012                 # Keyboard i and I
+014                 # Keyboard k and K
+008                 # Keyboard e and E
+# String[16]="so"
+022                 # Keyboard s and S
+018                 # Keyboard o and O
+# String[17]="people"
+019                 # Keyboard p and P
+008                 # Keyboard e and E
+018                 # Keyboard o and O
+019                 # Keyboard p and P
+015                 # Keyboard l and L
+008                 # Keyboard e and E
+# String[18]="not"
+017                 # Keyboard n and N
+018                 # Keyboard o and O
+023                 # Keyboard t and T
+# String[19]="rather"
+021                 # Keyboard r and R
+004                 # Keyboard a and A
+023                 # Keyboard t and T
+011                 # Keyboard h and H
+008                 # Keyboard e and E
+021                 # Keyboard r and R
+# String[20]="quite"
+020                 # Keyboard q and Q
+024                 # Keyboard u and U
+012                 # Keyboard i and I
+023                 # Keyboard t and T
+008                 # Keyboard e and E
+# String[21]="ch"
+006                 # Keyboard c and C
+011                 # Keyboard h and H
+# String[22]="sh"
+022                 # Keyboard s and S
+011                 # Keyboard h and H
+# String[23]="en"
+008                 # Keyboard e and E
+017                 # Keyboard n and N
+# String[24]="gh"
+010                 # Keyboard g and G
+011                 # Keyboard h and H
+# String[25]="ow"
+018                 # Keyboard o and O
+026                 # Keyboard w and W
+# String[26]="ed"
+008                 # Keyboard e and E
+007                 # Keyboard d and D
+# String[27]="wh"
+026                 # Keyboard w and W
+011                 # Keyboard h and H
+# String[28]="th"
+023                 # Keyboard t and T
+011                 # Keyboard h and H
+# String[29]="ou"
+018                 # Keyboard o and O
+024                 # Keyboard u and U
+# String[30]="child"
+006                 # Keyboard c and C
+011                 # Keyboard h and H
+012                 # Keyboard i and I
+015                 # Keyboard l and L
+007                 # Keyboard d and D
+# String[31]="shall"
+022                 # Keyboard s and S
+011                 # Keyboard h and H
+004                 # Keyboard a and A
+015                 # Keyboard l and L
+015                 # Keyboard l and L
+# String[32]="which"
+026                 # Keyboard w and W
+011                 # Keyboard h and H
+012                 # Keyboard i and I
+006                 # Keyboard c and C
+011                 # Keyboard h and H
+# String[33]="this"
+023                 # Keyboard t and T
+011                 # Keyboard h and H
+012                 # Keyboard i and I
+022                 # Keyboard s and S
+# String[34]="dd"
+007                 # Keyboard d and D
+007                 # Keyboard d and D
+# String[35]="out"
+018                 # Keyboard o and O
+024                 # Keyboard u and U
+023                 # Keyboard t and T
+# String[36]="well"
+026                 # Keyboard w and W
+008                 # Keyboard e and E
+015                 # Keyboard l and L
+015                 # Keyboard l and L
+# String[37]="ing"
+012                 # Keyboard i and I
+017                 # Keyboard n and N
+010                 # Keyboard g and G
+# String[38]="the"
+023                 # Keyboard t and T
+011                 # Keyboard h and H
+008                 # Keyboard e and E
+# String[39]="and"
+004                 # Keyboard a and A
+017                 # Keyboard n and N
+007                 # Keyboard d and D
+# String[40]="for"
+009                 # Keyboard f and F
+018                 # Keyboard o and O
+021                 # Keyboard r and R
+# String[41]="us"
+024                 # Keyboard u and U
+022                 # Keyboard s and S
+# String[42]="it"
+012                 # Keyboard i and I
+023                 # Keyboard t and T
+# String[43]="very"
+025                 # Keyboard v and V
+008                 # Keyboard e and E
+021                 # Keyboard r and R
+028                 # Keyboard y and Y
+# String[44]="as"
+004                 # Keyboard a and A
+022                 # Keyboard s and S
+# String[45]="you"
+028                 # Keyboard y and Y
+018                 # Keyboard o and O
+024                 # Keyboard u and U
+# String[46]="were"
+026                 # Keyboard w and W
+008                 # Keyboard e and E
+021                 # Keyboard r and R
+008                 # Keyboard e and E
+# String[47]="gg"
+010                 # Keyboard g and G
+010                 # Keyboard g and G
+# String[48]="with"
+026                 # Keyboard w and W
+012                 # Keyboard i and I
+023                 # Keyboard t and T
+011                 # Keyboard h and H
+# --- end of config
