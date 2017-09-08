@@ -15,10 +15,18 @@ Usage:
      Generate a Twiddler config file
      dido -g <hand_crafted.txt> <twiddler.cfg>
 
+     Extract a mirrored version
+     dido -m <twiddler.cfg>
+
 e.g.  
 $ ./dido twiddler.cfg > edit.txt
 
 $ ./dido -g edited.txt twiddler2.cfg
+
+$ ./dido -m lefthand.cfg > righthand_naive.txt
+
+$ VAMPIRE="042 044 038+RS 039+RS" ./dido -m lefthand.cfg > righthand.txt
+
 
 ```
 
