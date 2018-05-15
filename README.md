@@ -18,6 +18,9 @@ Usage:
      Extract a mirrored version
      dido -m <twiddler.cfg>
 
+     Generate entry for string table
+     dido -s "string"
+
 e.g.  
 $ ./dido twiddler.cfg > edit.txt
 
@@ -27,6 +30,7 @@ $ ./dido -m lefthand.cfg > righthand_naive.txt
 
 $ VAMPIRE="042 044 038+RS 039+RS" ./dido -m lefthand.cfg > righthand.txt
 
+$ ./dido -s "50 eggs"
 
 ```
 
